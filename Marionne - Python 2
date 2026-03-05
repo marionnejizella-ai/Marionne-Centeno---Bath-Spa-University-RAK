@@ -1,3 +1,0 @@
-print ("Simple Sums")
-str=input("Enter Something:")
-print(str)
