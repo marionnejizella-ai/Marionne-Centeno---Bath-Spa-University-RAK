@@ -1,3 +1,1 @@
 print("Primitive Quiz")
-str=input("Enter Something:")
-print(str)
