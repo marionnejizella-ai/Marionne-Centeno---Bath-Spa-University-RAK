@@ -1,0 +1,3 @@
+print("Biography")
+str=input("Enter Something:")
+print(str)
