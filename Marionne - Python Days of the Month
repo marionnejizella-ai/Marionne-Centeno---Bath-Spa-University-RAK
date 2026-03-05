@@ -1,0 +1,3 @@
+print("Days of the Month")
+str=input("Enter Something:")
+print(str)
