@@ -1,0 +1,3 @@
+print("Coding is Cool")
+str=input("Enter Something:")
+print(str)
