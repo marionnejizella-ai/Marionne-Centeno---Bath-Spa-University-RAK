@@ -1,15 +1,15 @@
 #Exercise 3: Biography
 #Marionne Jizella E. Centeno
-print("=== Biography Generator ===")
 
-# Asking user for information
-name = input("Marionne Jizella E. Centeno")
-age = input("18")
-hometown = input("Philippines")
+name = input("Marionne Jizella E. Centeno: ")
+age = input("18: ")
+hometown = input("Philippines: ")
 
-# Creating the biography
-print("\n--- Your Biography ---\n")
+person = {
+    "name": 'Marionne Jizelle E. Centeno',
+    "age": '18',
+    "hometown": 'Philippines'
+}
 
-print(f"{Marionne} is {18} years old and hometown in {Philippines}.")
-
-print("\n=== End of Biography ===")
+print(f"My name is ('name'), ['age'] years old and born from ['hometown'],")
+print(person)
