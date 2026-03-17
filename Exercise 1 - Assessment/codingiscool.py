@@ -1,25 +1,18 @@
 #Exercise 1: Coding is Cool
 #Marionne Jizella E. Centeno
 
-import tkinter as tk
+Exercise 1: Coding is Cool- 10 Marks
+Fill in the blanks in the Python code below to output the phrase “Coding is
+Cool” to the console using variables and string concatenation.
+    Fill in the blanks below
+word1 =
+word2 =
+word3 =
+# Use string concatenation to combine the variables and print the phrase
+_____(_________)
+     
+word1 = "Coding"
+word2 = "is"
+word3 = "Cool"
 
-# Create main window
-window = tk.Tk()
-window.title("Coding is Cool")
-window.geometry("500x300")
-window.configure(bg="#1e1e1e")
-
-# Create text label
-label = tk.Label(
-    window,
-    text="💻 Coding is Cool!",
-    font=("Arial", 28, "bold"),
-    fg="#00ffcc",
-    bg="#1e1e1e"
-)
-
-label.pack(expand=True)
-
-# Run the window
-window.mainloop()
-
+print(word1 + " " + word2 + " " + word3)
