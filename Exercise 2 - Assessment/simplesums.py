@@ -3,14 +3,9 @@
 ...
 print("=== Simple Sums Calculator ===")
 
-# Get numbers from the user
-num1 = float(input("8"))
-num2 = float(input("10"))
+num1 = 8
+num2 = 10
+total_sum = num1 + num2
 
-# Calculate sums
-addition = 8 + 10
-# Display results
-print("\nResults:")
-print(8+10)
-number = '8'
-print (10 + float(number))
+print(f"The sum of (num1) and (num2) is: (total_sum)")
+print(total_sum)
